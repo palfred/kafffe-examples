@@ -21,6 +21,7 @@ class Modifiers : KafffeComponent() {
             cssClassModifier("badge bg-secondary")
             val popperModifier = BootstrapPopoverModifier().apply {
                 with(options) {
+                    title = "Popper title"
                     content = "This is the popper text"
                     delay = 0
                     animation = true
